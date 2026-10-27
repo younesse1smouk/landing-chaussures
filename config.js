@@ -13,12 +13,12 @@ const CONFIG = {
     tagline: "Votre slogan ici",
     description: "Décrivez ici votre paire : état (neuf ou occasion), matière, marque, pointures disponibles.",
     features: [],                    // ex. ["Semelle amortissante", "Cuir véritable"] : seulement si c'est vrai
-    images: [                        // remplacez par vos photos (jpg/webp), la première sert d'image principale
-      { src: "images/photo-1.svg", alt: "Chaussure vue de profil" },
-      { src: "images/photo-2.svg", alt: "Chaussure vue de face" },
-      { src: "images/photo-3.svg", alt: "Semelle de la chaussure" },
-      { src: "images/photo-4.svg", alt: "Détail de la chaussure" }
-    ],
+    images: [
+     { src: "files/image/1.png", alt: "Chaussure vue de profil" },
+     { src: "files/image/2.jpg", alt: "Chaussure vue de face" },
+     { src: "files/image/3.jpg", alt: "Semelle de la chaussure" }
+      ],
+
     colors: [],                      // ex. [{ name: "Noir", hex: "#111111" }, { name: "Blanc", hex: "#ffffff" }]
     sizes: [                         // available: false = taille épuisée
       { size: 39, available: true }, { size: 40, available: true }, { size: 41, available: true },
